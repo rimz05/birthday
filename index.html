@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+*{
+    margin: 0;
+    
+}
+body{
+    height: 100vh;
+    /* display: flex; */
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+    background-size: 400%;
+    animation: gradient 12s ease infinite;
+    
+}
+.birthdaypic{
+    flex-direction: column;
+    gap: 10px;
+    display: flex;
+}
+.firstrow{
+    margin: 10px;
+    display: flex;
+    height: 24.5vh;
+    gap: 10px;
+    /* justify-content: top;
+    align-items: top; */
+}
+.secondrow{
+    margin: 10px;
+    display: flex;
+    height: 24vh;
+    gap: 10px;
+    /* justify-content: center;
+    align-items: center; */
+}
+.thirdrow{
+    margin: 10px;
+    display: flex;
+    height: 20vh;
+    gap: 10px;
+   
+}
+.forthrow{
+    margin: 10px;
+    display: flex;
+    height: 25vh;
+    gap: 10px;
+}
+img{
+    object-fit: cover;
+    flex: 1;
+    border-radius: 10px;
+    animation: show 3s ease-in-out 1;
+    transition: all 800ms;
+}
+img:hover{
+    opacity: 1.5;
+    flex: 1.8;
+}
+@keyframes gradient{
+    0%{
+        background-position: 0% 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
+}
+@keyframes show {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+</style>
+<body>
+    
+   <div class="firstrow">
+    <img src="10.jpg" alt="">
+    <img src="47.jpg" alt="">
+    <img src="43.jpg" alt="">
+    <img src="24.jpg" alt="">
+    <img src="26.jpg" alt="">
+    <img src="7.jpg"alt="">
+    <img src="20.jpg" alt="">
+    <img src="22.jpg" alt="">
+    <img src="21.jpg" alt="">
+    <img src="44.jpg" alt="">
+   </div>
+   <div class="secondrow">
+    <img src="57.jpg" alt="">
+    <img src="16.jpg" alt="">
+    <img src="23.jpg" alt="">
+    <img src="27.jpg" alt="">
+    <img src="29.jpg"alt="">
+    <img src="31.jpg" alt="">
+    <img src="55.jpg" alt="">
+    <img src="56.jpg" alt="">
+   </div> 
+   <div class="thirdrow">
+    <img src="25.jpg" alt="">
+    <img src="36.jpg" alt="">
+    <img src="14.jpg" alt="">
+    <img src="3.jpg" alt="">
+    <img src="1.jpeg.jpg" alt="">
+    <img src="45.jpg"alt="">
+    <img src="9.jpg" alt="">
+    <img src="5.jpg" alt="">
+    <img src="15.jpg" alt="">
+    <img src="11.jpg" alt="">
+   </div> 
+    <div class="forthrow">
+    <img src="33.jpg" alt="">
+    <img src="62.jpg" alt="">
+    <img src="2.jpg" alt="">
+    <img src="8.jpg"alt="">
+    <img src="13.jpg" alt="">
+    <img src="61.jpg" alt="">
+    <img src="41.jpg" alt="">
+   </div> 
+  
+
+</body>
+</html>
